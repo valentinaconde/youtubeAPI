@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;    
+}
+
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.navbar-nav{
+    margin-left: 200px;
+}
+
+.search{
+    border: 1px solid lightgray;
+    border-radius: 0;
+    width: 70vh;
+}
+
+.searchIcon{
+    border: 1px solid lightgray;
+    border-radius: 0;
+
+
+}
+
+.iconNavBar{
+    margin-left: 25px;
+    font-size: x-large;
+    color: grey;
+    padding-right: 20px;
+}
+
+.icon{
+    color: black;
+    font-size: x-large;
+    margin-right: 50px;
+    
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.homeLinks{
+    color: black;
+    font-size: small;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.homeLinks:hover{
+    background-color: lightgray;
+    color: black;
+
+}
+
+.sidebar{
+    position: fixed;
+    top: 50px;
+    height: 100vh;
+    background-color: white;
+    width:fit-content;
+    padding: 20px;
+}
+
+.categories{
+    position: fixed;
+    z-index: 1;
+    left: 250px;
+    top: 60px;
+    background-color: white;
+    height: 60px;
+    font-size: small;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.categoryLink{
+    background-color: #f0f0f0;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-left: 20px;
+}
+
+.categoryLink:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.imagenVideo{
+    width: 250px;
+    height: 150px;
+}
+.imagenAutor{
+    height: 50px;
+    width: 50px;
+    border-radius:25px;
+}
+
+.videos{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px 5px;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+
+.card{
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.description{
+    padding-left: 75px;
+    font-size: smaller;
+}
